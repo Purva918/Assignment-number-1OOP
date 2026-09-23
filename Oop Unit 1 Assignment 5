@@ -1,0 +1,41 @@
+#include<iostream>
+using namespace std;
+
+class Student
+{
+    int rollNo;
+    string name;
+    string course;
+
+public:
+
+    void setData(int r, string n, string c)
+    {
+        rollNo = r;
+        name = n;
+        course = c;
+    }
+
+    void getData()
+    {
+        cout << "----- Student Details -----" << endl;
+        cout << "Roll No: " << rollNo << endl;
+        cout << "Name: " << name << endl;
+        cout << "Course: " << course << endl;
+    }
+};
+
+int main()
+{
+    Student s1;
+
+    s1.setData(105, "Sneha", "Computer Science");
+    s1.getData();
+
+    return 0;
+}
+output 
+----- Student Details -----
+Roll No: 105
+Name: Sneha
+Course: Computer Science
