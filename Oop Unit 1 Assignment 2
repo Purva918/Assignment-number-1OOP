@@ -1,0 +1,96 @@
+#include<iostream>
+using namespace std;
+
+class student
+{
+public:
+    int RollNo;
+    string StudentName;
+    string StudentDepartmentName;
+
+    void display()
+    {
+        cout << "------Student Details------" << endl;
+        cout << "RollNo: " << RollNo << endl;
+        cout << "StudentName: " << StudentName << endl;
+        cout << "DepartmentName: " << StudentDepartmentName << endl;
+    }
+};
+
+int main()
+{
+    student s1;
+
+    s1.RollNo = 101;
+    s1.StudentName = "Purva";
+    s1.StudentDepartmentName = "Computer Engineering";
+
+    s1.display();
+
+    return 0;
+#include<iostream>
+using namespace std;
+
+class student
+{
+public:
+    int RollNo;
+    string StudentName;
+    string StudentDepartmentName;
+
+    void display()
+    {
+        cout << "------Student Details------" << endl;
+        cout << "RollNo: " << RollNo << endl;
+        cout << "StudentName: " << StudentName << endl;
+        cout << "DepartmentName: " << StudentDepartmentName << endl;
+    }
+};
+
+int main()
+{
+    student s1;
+
+    s1.RollNo = 101;
+    s1.StudentName = "Purva";
+    s1.StudentDepartmentName = "Computer Engineering";
+
+    s1.display();
+
+    return 0;
+#include<iostream>
+using namespace std;
+
+class student
+{
+public:
+    int RollNo;
+    string StudentName;
+    string StudentDepartmentName;
+
+    void display()
+    {
+        cout << "------Student Details------" << endl;
+        cout << "RollNo: " << RollNo << endl;
+        cout << "StudentName: " << StudentName << endl;
+        cout << "DepartmentName: " << StudentDepartmentName << endl;
+    }
+};
+
+int main()
+{
+    student s1;
+
+    s1.RollNo = 101;
+    s1.StudentName = "Purva";
+    s1.StudentDepartmentName = "Computer Engineering";
+
+    s1.display();
+
+    return 0;
+}
+output 
+------Student Details------
+RollNo: 101
+StudentName: Purva
+DepartmentName: Computer Engineering
