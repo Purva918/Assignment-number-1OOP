@@ -1,0 +1,36 @@
+#include<iostream>
+using namespace std;
+
+class Employee
+{
+public:
+    int EmployeeID;
+    string EmployeeName;
+    string EmployeeDepartment;
+
+    void display()
+    {
+        cout << "------Employee Details------" << endl;
+        cout << "EmployeeID: " << EmployeeID << endl;
+        cout << "EmployeeName: " << EmployeeName << endl;
+        cout << "Department: " << EmployeeDepartment << endl;
+    }
+};
+
+int main()
+{
+    Employee e1;
+
+    e1.EmployeeID = 101;
+    e1.EmployeeName = "Rahul";
+    e1.EmployeeDepartment = "Human Resources";
+
+    e1.display();
+
+    return 0;
+}
+output 
+------Employee Details------
+EmployeeID: 101
+EmployeeName: Rahul
+Department: Human Resources
