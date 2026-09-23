@@ -1,0 +1,65 @@
+#include<iostream>
+using namespace std;
+
+class Book
+{
+public:
+    int price;
+    int numberofpages;
+    string authorname;
+    string titlename;
+
+    // Default constructor
+    Book()
+    {
+        price = 0;
+        numberofpages = 0;
+        authorname = "Unknown";
+        titlename = "Unknown";
+    }
+
+    // Parameterized constructor
+    Book(int p, int pages, string author, string title)
+    {
+        price = p;
+        numberofpages = pages;
+        authorname = author;
+        titlename = title;
+    }
+
+    void display()
+    {
+        cout << "Price: " << price << endl;
+        cout << "NumberOfPages: " << numberofpages << endl;
+        cout << "AuthorName: " << authorname << endl;
+        cout << "Titlename: " << titlename << endl;
+    }
+};
+
+int main()
+{
+    Book b1;
+    Book b2(750, 350, "R.K.Sharma", "C++Programming");
+
+    cout << "------Book 1 Details------" << endl;
+    b1.display();
+
+    cout << endl;
+
+    cout << "------Book 2 Details------" << endl;
+    b2.display();
+
+    return 0;
+}
+output 
+------Book 1 Details------
+Price: 0
+NumberOfPages: 0
+AuthorName: Unknown
+Titlename: Unknown
+
+------Book 2 Details------
+Price: 750
+NumberOfPages: 350
+AuthorName: R.K.Sharma
+Titlename: C++Programming
